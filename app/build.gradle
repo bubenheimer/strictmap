@@ -1,13 +1,13 @@
 ext {
-    playServicesVersion = '9.2.1'
-    supportLibVersion = '24.1.1'
+    playServicesVersion = '10.0.1'
+    supportLibVersion = '25.1.0'
 }
 
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 24
-    buildToolsVersion '24.0.1'
+    compileSdkVersion 25
+    buildToolsVersion '25.0.2'
 
     defaultConfig {
         applicationId 'com.bubenheimer.strictmap'
